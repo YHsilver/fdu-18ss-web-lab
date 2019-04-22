@@ -10,11 +10,11 @@ div#topHeaderRow {
 
    font-size: 0.9em;
  
-   /*
-   height: 2em;
-   background-color: yellow;  
-   line-height: 2em;
-*/
+
+   /*height: 2em;*/
+   /*background-color: yellow;*/
+   /*line-height: 2em;*/
+
 }
 
 .price { font-size: 1.4em; color: red; font-weight: bold;}
