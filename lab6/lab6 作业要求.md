@@ -1,4 +1,4 @@
-LAB 6作业要求
+LAB 6作业要    Z求
 ==========
 本 LAB 只提供初始代码，需要通过修改初始代码使得最终网页达到要求的展示效果。
 
@@ -8,7 +8,7 @@ LAB 6作业要求
 ### 作业提交网址 ADDRESS
 //github.com/(Your ID)/**fdu-18ss-web-lab**
 
-e.g. //github.com/veronicadavichi/**fdu-18ss-web-lab**
+e.g. //github.com/SRTV Xs1wveronicadavichi/**fdu-18ss-web-lab**
 
 即上传到你 lab6 的仓库中
 

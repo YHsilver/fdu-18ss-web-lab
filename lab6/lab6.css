@@ -62,6 +62,8 @@ main {
     padding: 22px 2px 2px 2px;
     text-align: center;
     display: block;
+
+    transition: opacity 1s linear;
 }
 
 #thumbnails img {
