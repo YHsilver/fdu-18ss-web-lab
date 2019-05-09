@@ -14,16 +14,29 @@ var thums = document.getElementById("thumbnails");
 var children = thums.children;
 
 
-for (var i = 0; i < children.length; i++) {
-    (function (i) {
+// for (var i = 0; i < children.length; i++) {
+//     (function (i) {
+//
+//         children[i].onclick = function () {
+//             img.src = "images/medium/" + children[i].src.slice(-14);
+//             caption.innerHTML = children[i].title;
+//             img.title=children[i].title;
+//         }
+//
+//
+//     })(i)
+//
+// }
 
-        children[i].onclick = function () {
-            img.src = "images/medium/" + children[i].src.slice(-14);
-            caption.innerHTML = children[i].title;
-            img.title=children[i].title;
-        }
+function helper(i) {
+    return function() {
+        img.src = "images/medium/" + children[i].src.slice(-14);
+        caption.innerHTML = children[i].title;
+        img.title = children[i].title;
+    }
+}
 
 
-    })(i)
-
+for (var i=0;i<children.length;i++){
+    children[i].onclick=helper(i);
 }
