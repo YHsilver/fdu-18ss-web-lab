@@ -6,6 +6,7 @@
                                 <td>$quantity</td>
                                 <td>$price</td>
                                 <td>$quantity*$price</td>
+                                
        </tr>";
     }
 ?>
